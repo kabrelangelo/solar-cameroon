@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 const HeroSection = () => {
   // Tableau des images de fond
   const bgImages = [
-    'url("../../../assets/images/bg1.jpg")',
-    'url("../../../assets/images/bg2.jpg")',
-    'url("../../../assets/images/bg3.jpg")',
-    'url("../../../assets/images/bg4.jpg")',
+    'url("/images/bg1.jpg")',
+    'url("/images/bg2.jpg")',
+    'url("/images/bg3.jpg")',
+    'url("/images/bg4.jpg")',
 
   ];
 
