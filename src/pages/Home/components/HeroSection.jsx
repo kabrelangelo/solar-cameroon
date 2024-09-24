@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const HeroSection = () => {
-  // Tableau des images de fond
+
   const bgImages = [
     'url("/images/bg1.jpg")',
     'url("/images/bg2.jpg")',
@@ -9,17 +9,14 @@ const HeroSection = () => {
     'url("/images/bg4.jpg")',
 
   ];
-
-  // État pour stocker l'index de l'image actuelle
+  
   const [currentBg, setCurrentBg] = useState(0);
-
-  // useEffect pour changer l'image toutes les X secondes
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentBg((prevIndex) => (prevIndex + 1) % bgImages.length);
-    }, 7000); // Changer l'image toutes les 5 secondes
+    }, 7000); 
 
-    return () => clearInterval(interval); // Nettoyage de l'intervalle lors du démontage
+    return () => clearInterval(interval); 
   }, [bgImages.length]);
 
   return (
