@@ -20,7 +20,7 @@ Nous réalisons des installations et maintenance de panneaux solaires photovolta
 pour entreprises et particuliers. Avec nous, plus de problèmes d'électricité.
                     </p>
                 </div>
-                <div className="rounded-lg bg-gray-200">
+                <div className="rounded-lg">
                     <img src="/images/section1.webp" alt="" 
                     className='rounded-lg  w-full ' />
                 </div>
