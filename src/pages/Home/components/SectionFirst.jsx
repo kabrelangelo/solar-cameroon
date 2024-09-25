@@ -19,7 +19,7 @@ const SectionFirst = () => {
 Nous réalisons des installations et maintenance de panneaux solaires photovoltaiques 
 pour entreprises et particuliers. Avec nous, plus de problèmes d'électricité.
                     </p>
-                    <button > Discutons de votre projet</button>
+                    
                 </div>
                 <div className="rounded-lg">
                     <img src="/images/section1.webp" alt="" 
