@@ -22,7 +22,7 @@ pour entreprises et particuliers. Avec nous, plus de problèmes d'électricité.
                 </div>
                 <div className="rounded-lg bg-gray-200">
                     <img src="/images/section1.webp" alt="" 
-                    className='rounded-lg   ' />
+                    className='rounded-lg  w-full ' />
                 </div>
             </div>
         </div>
